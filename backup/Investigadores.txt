@@ -1,0 +1,39 @@
+Alberto Cardoso,alberto@dei.uc.pt,AC,Membro Efetivo,1,969696969
+Ana Boavida,aboavida@dei.uc.pt,CMS,Membro Efetivo,2,929292929
+Anabela Jesus Gomes,anabela@isec.pt,CMS,Membro Efetivo,3,939393939
+Karima Velasquez,kcastro@dei.uc.pt,LCT,Estudante,Importância do chocolate no estudo,Tiago Cruz,23/10/2000
+José Campos,jcampos@di.estv.ipv.pt,IS,Estudante,A melhor tese de sempre,Rui Craveirinha,23/10/2000
+Ernesto Costa,ernesto@dei.uc.pt,ECOS,Membro Efetivo,4,959595959
+Fabio Lopes,fabioacl96@gmail.com,AC,Estudante,Os gatos são os melhores animais,Alberto Cardoso,14/12/2010
+Fernando Barros,barros@dei.uc.pt,SSE,Membro Efetivo,5,92495817
+Nuno Lourenco,naml@dei.uc.pt,ECOS,Membro Efetivo,6,968172947
+David Abreu,dabreu@dei.uc.pt,LCT,Estudante,POO é fixe mas passar com boa nota é melhor,Fernando Boavida,10/09/1995
+Guilherme Silva,gcsilva@student.dei.uc.pt,ECOS,Estudante,Estou a ficar sem ideias,Francisco Baptista,18/03/2004
+Rui Pedro Paiva,ruipedro@dei.uc.pt,CMS,Membro Efetivo,7,960182749
+Tiago Cruz,tjcruz@dei.uc.pt,LCT,Membro Efetivo,8,924759185
+Paulo de Carvalho,carvalho@dei.uc.pt,AC,Membro Efetivo,9,927184958
+Jorge Granjal,jgranjal@dei.uc.pt,LCT,Membro Efetivo,10,968274019
+Joel P. Arrais,jpa@dei.uc.pt,AC,Membro Efetivo,11,969002884
+Marilia Curado,marilia@dei.uc.pt,LCT,Membro Efetivo,12,927718492
+Luis Paquete,paquete@dei.uc.pt,AC,Membro Efetivo,13,928519581
+Rui Craveirinha,raneves@dei.uc.pt,IS,Membro Efetivo,14,968827178
+Licinio Roque,lir@dei.uc.pt,IS,Membro Efetivo,15,927195819
+Bernardete Ribeiro,bribeiro@dei.uc.pt,AC,Membro Efetivo,16,928591929
+Francisco Baptista Pereira,xico@dei.uc.pt,ECOS,Membro Efetivo,17,969281919
+Fernando Boavida,boavida@eden.dei.uc.pt,LCT,Membro Efetivo,18,929186818
+Marco Vieira,mvieira@dei.uc.pt,SSE,Membro Efetivo,19,925895911
+Nuno Laranjeiro,cnl@dei.uc.pt,SSE,Membro Efetivo,20,966694082
+Henrique Madeira,henrique@dei.uc.pt,SSE,Membro Efetivo,21,966694083
+César Teixeira,cteixei@dei.uc.pt,AC,Membro Efetivo,22,966694084
+Noel Lopes,noel@jpg.pt,AC,Membro Efetivo,23,966694085
+Ana Rodrigues,anatr@dei.uc.pt,CMS,Estudante,Isto esta a ficar critico com a falta de ideias,Rui Pedro Paiva,16/04/2005
+Bruna Sousa,bmsousa@dei.uc.pt,LCT,Membro Efetivo,23,966694085
+F. Amilcar Cardoso,amilcar@dei.uc.pt,CMS,Membro Efetivo,24,966694086
+Jorge Granjal,jgranjal@dei.uc.pt,LCT,Membro Efetivo,25,966694087
+Jorge Henriques,jh@dei.uc.pt,AC,Membro Efetivo,26,966694088
+Antonio Dourado,dourado@dei.uc.pt,AC,Membro Efetivo,27,966694089
+Paula Furtado,furtado@forwiss.tu-muenchen.de,SSE,Estudante,Uma tese qualquer,Nuno Laranjeiro,17/05/2010
+Mario Bernardes,mjb@ci.uc.pt,LCT,Estudante,Outra tese qualquer,Bruna Sousa,18/01/2015
+Catarina Silva,catarina@dei.uc.pt,AC,Membro Efetivo,28,966694090
+Rosario Cacao,mrac@dei.uc.pt,IS,Membro Efetivo,29,966695090
+Jorge C. S. Cardoso,jorgecardoso@dei.uc.pt,IS,Membro Efetivo,30,966688888

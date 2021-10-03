@@ -1,0 +1,25 @@
+Marco Vieira+Nuno Laranjeiro+Henrique Madeira,Testing and comparing web vulnerability scanning tools for SQL and XSS attacks,resumo1,testing;web;scanning,2016,Artigo de conferencia,100,ICWS 2007,10/09/2016,Paris(France)
+Noel Lopes+Bernardete Ribeiro,Trading off Distance Metrics vs Accuracy in Incremental Learning Algorithms,resumo2,metrics;accuracy;algorithm,2016,Artigo de conferencia,300,IberoAmerican Congress on Pattern Recognition,23/11/2016,Lisbon(Portugal)
+Ana Rodrigues+Bruna Sousa+Penousal Machado+F. Amilcar Cardoso,Glowing Lichen: Visually Sensing Social Spaces,resumo3,visually;sensing;space,2020,Artigo de conferencia,600,ISEA,13/10/2020,Montreal(Canada)
+Fernando Barros,Composition of Numerical Integrators in the HyFlow Formalism,resumo4,composition;numerical;integrators,2018,Artigo de conferencia,250,Winter Simulation Conference,05/05/2018,Madrid(Spain)
+Noel Lopes+Bernardete Ribeiro,Incremental Learning for Non-Stationary Patterns,resumo5,incremental;learning;patterns,2018,Artigo de conferencia,100,RECPAD 2011,04/10/2018,Lisbon(Portugal)
+Karima Velasquez+Alberto Cardoso,Um titulo qualquer,resumo6,um;titulo;qualquer,2020,Artigo de revista,400,Uma revista qualquer,01/05/2020,506
+Jorge Granjal,Segurança Prática em Sistemas e Redes com Linux,resumo7,seguranca;pratica;sistemas;redes,2017,Artigo de revista,700,FCA,01/05/2017,231
+Jorge Henriques,Adaptive neural output regulation control of a solar power plant,resumo8,adaptive;neural;solar;power,2019,Artigo de revista,2000,Control Engineering Practice,01/07/2019,500
+Antonio Dourado,Perseguindo a ambição de prever as crises epilepticas,resumo9,crises;epilepticas,2020,Artigo de revista,1500,Mundo Medico vol.10,02/05/2020,2
+Paula Furtado,Model and procedure for performance and availability-wise parallel warehouses,resumo10,model;performance;warehouses,2009,Artigo de revista,100,SOCA vol.10,04/10/2009,1
+Rui Pedro Paiva,Melody Detection in Polyphonic Audio: From Pitch Extraction to Note Identification,resumo11,melody;detection;audio;pitch,2009,Livro,1000,Lambert Academic Publishing,978-3-16-148410-0
+Fernando Boavida,Introducao a Criptografia,resumo12,criptografia,2019,Livro,11000,FCA,978-4-16-148410-0
+Catarina Silva+Bernardete Ribeiro,Aprendizagem Computacional em Engenharia,resumo13,computacional,2018,Livro,100,Coimbra University Press,978-5-16-148410-0
+Rosario Cacao,Quality in e-learning: Theory and practice,resumo14,theory;learning,2012,Livro,500,Lambert,978-6-16-148410-0
+Fernando Boavida+Mario Bernardes,TCP/IP - Teoria e prática,resumo15,tcp;ip,2012,Livro,500,FCA Lda.,977-5-12-144444-0
+Fernando Barros,A Unifying Framework for the Hierarchical Co-Simulation of Cyber-Physical Systems,resumo16,complexity;cyber,2019,Capitulo de livro,15000,Porto Editora,988-1-12-133333-2,ch.5,111,130
+Jorge Granjal,Segurança Prática em Sistemas e Redes com Linux,resumo17,seguranca;pratica;sistemas;redes,2017,Capitulo de livro,5000,FCA,988-2-14-144455-2,ch.1,5,30
+Jorge C. S. Cardoso,A Review of Technologies for Gestural Interaction in Virtual Reality,resumo18,interaction;virtual,2019,Capitulo de livro,500,Porto Editora,922-2-15-144444-3,ch.5,100,150
+Luis Paquete,On the performance of local search for the biojective traveling salesman problem,resumo19,performance;biojective,2018,Capitulo de livro,4000,FCA,988-3-14-155544-3,ch.6,143,165
+Antonio Dourado,Sistemas em Medicina Nuclear,resumo20,medicina;nuclear,2008,Capitulo de livro,16000,Porto Editora,911-5-14-199888-3,ch.4,381,430
+Guilherme Silva+Ernesto Costa,Qualquer livro,resumo21,qualquer,2020,Livro de artigos de conferencia,2000,Porto Editora,922-5-13-219888-4,Qualquer conferencia,5
+Jorge Granjal,Qualquer livro 2,resumo22,qualquer;livro,2010,Livro de artigos de conferencia,5000,Outra Editora,933-1-12-2339999-5,Qualquer conferencia 2,10
+Paula Furtado,Qualquer livro 3,resumo23,qualquer;cena,2018,Livro de artigos de conferencia,15000,Porto Editora,922-5-23-9881111-3,Outra conferencia,20
+Mario Bernardes,Nao tenho ideias para livros help,resumo24,help,2008,Livro de artigos de conferencia,20000,Alexy Editora,911-8-30-9814444-5,Conferencia do Spiderman,10
+Karima Velasquez+Paulo de Carvalho,Ja acabou finalmente yay,resumo25,finally;over,2020,Livro de artigos de conferencia,100,Alexy Editora,955-1-23-1113344-6,Conferencia do Alexy,20

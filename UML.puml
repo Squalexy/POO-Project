@@ -1,0 +1,166 @@
+@startuml
+
+!define LIGHTBLUE
+!include https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+skinparam classAttributeIconSize 0
+
+
+
+class com.jetbrains.AC {
+}
+class com.jetbrains.GrupoInvestigacao {
+# nome, acronimo, investigadorResponsavel: String
+# numeroEstudantes, numeroMembrosEfetivos: int
+# investigadores: ArrayList<Investigador>
+# publicacoes: ArrayList<Publicacao>
++ toString(): String
+}
+class com.jetbrains.ArtigoRevista {
+- nomeRevista: String
+- dataRevista: Data
+- numeroRevista: int
++ fatorImpacto(): String
++ toString(): String
+}
+class com.jetbrains.ArtigoConferenciaLivro {
+- nomeConferencia: String
+- numeroArtigos: int
++ fatorImpacto(): String
++ toString(): String
+}
+class com.jetbrains.CISUC {
+~ gruposInvestigacao: ArrayList<GrupoInvestigacao>
+~ investigadores: ArrayList<Investigador>
+~ publicacoes: ArrayList<Publicacao>
+~ grupos: GrupoInvestigacao
+~ ac: AC
+~ is: IS
+~ cms: CMS
+~ ecos: ECOS
+~ lct: LCT
+~ sse: SSE
++ addAtributosToInvestigador(Investigador,String[]): void
++ addPublToInvestigador(String[],Publicacao): void
++ addPublicacoesToGrupos(): void
++ addPublToGrupo(String[],Publicacao): void
++ addAttributesToPublicacao(Publicacao,String[],Investigador): void
++ addSoloInvestigadorToGrupos(GrupoInvestigacao,Investigador): void
++ addInvestigadoresToGrupos(): void
++ addGruposToGrupo(): void
++ lerTxtInvestigadores(): void
++ lerTxtPublicacoes(): void
++ lerObjInvestigadores(): void
++ lerObjPublicacoes(): void
++ escreverObjInvestigadores(): void
++ escreverObjPublicacoes(): void
++ totalMembros(GrupoInvestigacao): void
++ totalMembrosCadaCategoria(GrupoInvestigacao): void
++ publicacoesUltimosCincoAnos(GrupoInvestigacao): void
++ publicacoesCadaTipo(GrupoInvestigacao): void
++ publUltimosCincoOrganizadas(String): void
++ membrosGrupoPorCategoria(String): void
++ publicacoesInvestigador(String): void
++ numPublUltimosCincoOrganizadas(String): void
++ listagemGruposInvestigacao(): void
+}
+class com.jetbrains.ECOS {
+}
+class com.jetbrains.ArtigoConferencia {
+- nomeConferencia, localizacaoConferencia: String
+- dataConferencia: Data
++ fatorImpacto(): String
++ toString(): String
+}
+class com.jetbrains.CMS {
+}
+class com.jetbrains.CapituloLivro {
+- nomeCapitulo: String
+- paginaInicio: int
+- paginaFim: int
++ toString(): String
+}
+class com.jetbrains.Estudante {
+- tituloTese, investigadorOrientador: String
+- dataConclusao: Data
++ toString(): String
++ outputInvestigador(): String
+}
+abstract class com.jetbrains.Publicacao {
+# autores: ArrayList<Investigador>
+# titulo, palavrasChave, resumo, tipoPublicacao: String
+# anoPublicacao, dimensaoAudiencia: int
++ fatorImpacto(): {abstract}String
++ toString(): String
+}
+class com.jetbrains.SSE {
+}
+class com.jetbrains.LCT {
+}
+class com.jetbrains.MembroEfetivo {
+- numeroGabinete, numeroTelefoneDEI: int
++ toString(): String
++ outputInvestigador(): String
+}
+abstract class com.jetbrains.Investigador {
+# nome, email, grupoInvestigacao, categoria: String
+# publicacoes: ArrayList<Publicacao>
++ toString(): String
++ outputInvestigador(): String
+}
+class com.jetbrains.IS {
+}
+class com.jetbrains.Main {
+~ {static} Scanner sc
++ {static} main(String[]): void
+}
+class com.jetbrains.Livro {
+# editora, ISBN: String
++ fatorImpacto(): String
++ toString(): String
+}
+class com.jetbrains.Data {
+- dia, mes, ano: int
++ toString(): String
+}
+
+com.jetbrains.Publicacao "*" -- "1" com.jetbrains.GrupoInvestigacao
+com.jetbrains.Investigador "*" -- "1" com.jetbrains.GrupoInvestigacao
+com.jetbrains.Investigador "1" -- "*" com.jetbrains.Publicacao
+
+com.jetbrains.Publicacao "*" -- "1" com.jetbrains.CISUC
+com.jetbrains.Investigador "*" -- "1" com.jetbrains.CISUC
+com.jetbrains.GrupoInvestigacao "*" -- "1" com.jetbrains.CISUC
+com.jetbrains.Grupoinvestigacao "1" -- "1" com.jetbrains.CISUC
+
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.AC
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.CMS
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.ECOS
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.IS
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.LCT
+com.jetbrains.CISUC "1" -- "1" com.jetbrains.SSE
+
+com.jetbrains.Data "1" -- "1" com.jetbrains.Estudante
+com.jetbrains.Data "1" -- "1" com.jetbrains.ArtigoRevista
+com.jetbrains.Data "1" -- "1" com.jetbrains.ArtigoConferencia
+
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.AC
+com.jetbrains.Publicacao <|-- com.jetbrains.ArtigoRevista
+com.jetbrains.Livro <|-- com.jetbrains.ArtigoConferenciaLivro
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.ECOS
+com.jetbrains.Publicacao <|-- com.jetbrains.ArtigoConferencia
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.CMS
+com.jetbrains.Livro <|-- com.jetbrains.CapituloLivro
+com.jetbrains.Investigador <|-- com.jetbrains.Estudante
+java.io.Serializable <|.. com.jetbrains.Publicacao
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.SSE
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.LCT
+com.jetbrains.Investigador <|-- com.jetbrains.MembroEfetivo
+java.io.Serializable <|.. com.jetbrains.Investigador
+com.jetbrains.GrupoInvestigacao <|-- com.jetbrains.IS
+com.jetbrains.Publicacao <|-- com.jetbrains.Livro
+java.io.Serializable <|.. com.jetbrains.Data
+
+
+
+@enduml
